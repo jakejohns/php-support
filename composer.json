@@ -1,0 +1,17 @@
+{
+    "name": "jnj/php-support",
+    "description": "support for php stuff",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnj\\Support\\": "src/",
+            "Jnj\\Support\\_Config\\": "config/"
+        }
+    },
+    "require": {}
+}
