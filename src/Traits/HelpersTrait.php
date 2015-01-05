@@ -76,6 +76,7 @@ trait HelpersTrait
     */
     public function setHelperMap(array $map)
     {
+        $this->helpers = [];
         $this->helperMap = $map;
         return $this;
     }
